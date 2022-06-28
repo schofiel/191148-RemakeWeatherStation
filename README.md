@@ -1,16 +1,16 @@
 # 191148-RemakeWeatherStation
 
-This is the software to be used with the Elektor weatherstation remake of 2020
+This is the software for use with the Elektor weatherstation remake of 2020
 The core of the station is a ESP32 Pico Kit V4.x arround the WH-SP-WS02 ( https://www.elektor.de/professional-outdoor-weather-station-wh-sp-ws02 )
-The software and also some parts of the webpage got an overhaul or are compleatly rewritten. 
+The software and also some parts of the webpage got an overhaul or are completely rewritten. 
 
-The new modular design should allow to add later new sensors or features with less hassle than with the former one.
+The new modular design should allow for the later addition of new sensors or features with less hassle than before.
 
 ## Getting Started
 
 Use your current Arduino IDE to compile the Code and also the ESP32 Arduino Core installed.
 Have a look at : https://www.elektormagazine.com/labs/esp32-getting-started for a getting started guide.
-You requiere to have the following librarys at hand:
+You will need to have the following libraries available:
 
 * LiquidCrystal_I2C ( https://github.com/johnrickman/LiquidCrystal_I2C )
 * eHaJo Absolut Pressure AddOn by Hannes Jochriem ( https://github.com/ehajo/WSEN-PADS )
@@ -29,11 +29,11 @@ You requiere to have the following librarys at hand:
 ### Prerequisites
 
 If you try to programm the ESP32 Pico Kit be aware that the use of more modern USB3.x ports may cause the board
-NOT to enter the programming mode. Use a USB2.0 Port or at least a USB2.0 Hub to get arround this. 
+NOT to enter programming mode. Use a USB2.0 Port or at least a USB2.0 Hub to get around this. 
 
-## Pinmapping
+## Pin mapping
 
-Currently the following Pinmapping is used for the software
+Currently the following Pin mapping is used for the software:
 
 * IO02 : RES  ( RFM95 )
 * IO14 : SCKL ( RFM95 )
